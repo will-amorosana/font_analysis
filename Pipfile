@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scikit-learn = "*"
+pandas = "*"
+jupyter = "*"
+matplotlib = "*"
+sklearn = "*"
+scipy = "*"
+chainconsumer = "*"
+statsmodels = "*"
+h5py = "*"
+theano = "*"
+hdbscan = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
